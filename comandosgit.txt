@@ -1,0 +1,6 @@
+git status
+git add
+git puhs
+git commit -m"escribe cualquer guevada"
+git clone <mete la maldita url>
+
