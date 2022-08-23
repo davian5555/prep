@@ -305,13 +305,7 @@ function esVocal(letra){
     return "Dato incorrecto"
 }    else { 
     return "Dato incorrecto"}
-   
-
-
-
-  
-
-  
+ 
 }
 
 
