@@ -200,11 +200,11 @@ if (num1 === 0 || num2 === 0 || num3 ===0)
 else if (num1 < 0 || num2 < 0 || num3 < 0)
 {  return "Hay negativos";}
 
-else  if (num1 >2 && num1 > num3  ) 
-{  return "Número 1 es mayor y positivo"; }
+else  if (num1 >num2 && num1 > num3  ) 
+{ 
+  return "Número 1 es mayor y positivo"; }
 
-else if (num3 > num1 && num3 > num2)
-{   
+else if (num3 > num1 && num3 > num2){   
    return num3 + 1 ;
 } else {
   return false;
@@ -249,18 +249,35 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   
+let array = [];
+for (let x = 0; x <= 10; x++){
+ 
+  array.push(6*x);
+}
+return array;
+  
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   
+  if (numero > 99 && numero < 1000) {
+    return true;
+  } else {
+    return false ;
+  }
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+do {
+   numero == numero + 5 ;
+   
+} while (numero );
+
 }
 
 
